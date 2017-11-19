@@ -153,7 +153,8 @@ h2 {
 					border-radius: 5px;
 					background: @base-white;
 					list-style-type: none;
-					transition: all .5s;
+					transition: all .3s;
+					box-shadow: 0 0 10px rgba(0,0,0,0.5);
 					&:hover {
 						background: @base-orange;
 					}
@@ -222,13 +223,14 @@ h2 {
 			width: 80px;
 			margin-left: 198px;
 			margin-top: -50px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		}
 		&__img_top {
 			width: 80px;
 			border-radius: 50%;
 			margin-left: -36px;
 			margin-bottom: -36px;
-
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		}
 		&__quote {
 			padding-left: 7%;
@@ -395,21 +397,21 @@ h2 {
 	}
 	&_bottom {
 		&__google {
-			display: flex;
-			align-items: flex-end;
-			justify-content: center;
 			background: darken(@bg-gray, 7%);
 			border-radius: 30px;
 			padding: 15px;
 			height: 120px;
 			&__box {
+				display: flex;
+				justify-content: center;
+				align-items: center;
 				height: 100px;
 				padding: 0;
 			}
 			p {
 				background: @base-white;
-				padding: 29px 65px 24px 65px;
-
+				padding: 8% 17%;
+				box-shadow: 0 0 10px rgba(0,0,0,0.5);
 			}
 			&__stars {
 				color: @base-orange;
@@ -452,6 +454,7 @@ h2 {
 				width: 80px;
 				height: 80px;
 				border-radius: 50%;
+				box-shadow: 0 0 10px rgba(0,0,0,0.5);
 			}
 		}
 	}		

@@ -153,9 +153,11 @@ h2 {
   border-radius: 5px;
   background: #ffffff;
   list-style-type: none;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .header_navline__choise ul li:hover {
   background: #f5822f;
@@ -225,12 +227,16 @@ h2 {
   width: 80px;
   margin-left: 198px;
   margin-top: -50px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .feedback_slider__img_top {
   width: 80px;
   border-radius: 50%;
   margin-left: -36px;
   margin-bottom: -36px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .feedback_slider__quote {
   padding-left: 7%;
@@ -423,30 +429,32 @@ h2 {
   margin-bottom: 3%;
 }
 .clients_bottom__google {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   background: #e0e0e0;
   border-radius: 30px;
   padding: 15px;
   height: 120px;
 }
 .clients_bottom__google__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100px;
   padding: 0;
 }
 .clients_bottom__google p {
   background: #ffffff;
-  padding: 29px 65px 24px 65px;
+  padding: 8% 17%;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .clients_bottom__google__stars {
   color: #f5822f;
@@ -493,6 +501,8 @@ h2 {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /* Footer Section */
 .footer {
